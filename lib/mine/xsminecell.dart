@@ -11,8 +11,8 @@ class XSMineCell extends StatefulWidget {
     @required this.imageName,
     @required this.title,
     this.arrowImage,
-  })  : assert(imageName != null, 'imageName 为空'),
-        assert(title != null, 'title 为空'),
+  })  : assert(imageName != null, 'imageName  为空'),
+        assert(title != null, 'title  为空'),
         super(key: key);
 
   @override
