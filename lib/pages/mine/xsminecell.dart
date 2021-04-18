@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter123/mine/settingpage/settingpage.dart';
+import 'package:flutter123/pages/mine/settingpage/settingpage.dart';
 
 class XSMineCell extends StatefulWidget {
   final String imageName;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter123/mine/model/mine.dart';
-import 'package:flutter123/mine/xsminecell.dart';
-import 'package:flutter123/mine/xsmineheadcell.dart';
-import 'package:flutter123/mine/xsminesubheadcell.dart';
+import 'package:flutter123/pages/mine/model/mine.dart';
+import 'package:flutter123/pages/mine/xsminecell.dart';
+import 'package:flutter123/pages/mine/xsmineheadcell.dart';
+import 'package:flutter123/pages/mine/xsminesubheadcell.dart';
 
 class XSMine extends StatelessWidget {
   Widget _cellForRow(BuildContext context, int index) {

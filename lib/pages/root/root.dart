@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter123/Mine/Mine.dart';
-import 'package:flutter123/circle/circle.dart';
-import 'package:flutter123/home/home.dart';
+import 'package:flutter123/pages/circle/circle.dart';
+import 'package:flutter123/pages/home/home.dart';
 
 class RootPage extends StatefulWidget {
   @override

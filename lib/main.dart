@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter123/root/root.dart';
+import 'package:flutter123/pages/root/root.dart';
 
 void main() => runApp(App());
 
