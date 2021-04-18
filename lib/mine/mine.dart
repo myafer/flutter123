@@ -2,13 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter123/mine/model/mine.dart';
 import 'package:flutter123/mine/xsminecell.dart';
 import 'package:flutter123/mine/xsmineheadcell.dart';
+import 'package:flutter123/mine/xsminesubheadcell.dart';
 
 class XSMine extends StatelessWidget {
   Widget _cellForRow(BuildContext context, int index) {
     if (index == 0) {
       return XSMineHeadCell();
+    } else if (index == 1) {
+      return XSMineSubHeadCell();
     } else {
-      MineCellModel _model = mineCellModels[index - 1];
+      MineCellModel _model = mineCellModels[index - 2];
       return XSMineCell(
         imageName: _model.imageName,
         title: _model.title,
